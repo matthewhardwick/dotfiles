@@ -36,11 +36,6 @@ noremap L $
 noremap 0 <NOP>
 noremap $ <NOP>
 
-noremap <UP> <NOP>
-noremap <DOWN> <NOP>
-noremap <LEFT> <NOP>
-noremap <RIGHT> <NOP>
-
 imap jk <Esc>
 
 noremap <c-s> :w<CR>
