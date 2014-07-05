@@ -38,7 +38,7 @@ killall Dock
 ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 
 # Install basics
-brew install vim git nodejs wget curl htop gist zsh
+brew install vim git nodejs wget curl htop gist zsh tmux
 
 # Install node basics
 npm install -g jshint tldr gulp bower
