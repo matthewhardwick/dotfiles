@@ -1,5 +1,5 @@
 set nocompatible
-filetype off
+filetype on 
 let mapleader = ","
 
 set t_Co=256
@@ -182,6 +182,11 @@ Bundle 'christoomey/vim-tmux-navigator'
 
 "Vim motions on speed!
 Bundle 'Lokaltog/vim-easymotion'
+
+"Adds in Handlebars syntax highlighting support
+"Also sets up the hbs fileype for mustache
+Bundle 'mustache/vim-mustache-handlebars'
+au BufNewFile,BufRead *.hbs set filetype=mustache
 
 " code autocompletion
 " NOTE: Requires extra compilation setup
